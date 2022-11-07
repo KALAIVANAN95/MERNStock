@@ -90,7 +90,7 @@ const updateBook = async (req, res, next) => {
         return res.status(404).json({ message: "Unable to update this ID" })
     }
 
-    return res.status(200).json({ message: "Product successfully deleted" })
+    return res.status(200).json({ message: "Product successfully deletted" })
 }
 
 
